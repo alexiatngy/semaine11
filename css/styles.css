@@ -16,10 +16,9 @@ html{
    Base
 ------------------------------------------------------------------------------*/
 
-html{
-    background-image: url(../images/fond/global.png);
-    background-repeat: repeat;
+body{
 
+    background: black url(../images/fond/global.png) repeat center center;
     font: normal normal 400 1.6rem/ normal "Oranienbaum", sans-serif;
     color: white;
 }
@@ -33,7 +32,20 @@ a:hover{
     color: darkorange;
 }
 
+header{
+    text-align: center;
+    position: relative;
+}
 
+h1{
+    font: normal normal 400 10.0rem/ normal "Monoton", sans-serif;
+}
+
+h2{
+    font: normal normal 400 3.2rem/ normal "Monoton", sans-serif;
+    margin: 0;
+    text-transform: capitalize;
+}
 
 /*------------------------------------------------------------------------------
    Modules
@@ -53,7 +65,26 @@ a:hover{
 
 header, section{
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+header div, section div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header a{
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 /*---------------------------------------
                 Section Générale
  ---------------------------------------*/
@@ -66,6 +97,10 @@ section .boite{
     border-radius: 10px;
 }
 
+h2 span{
+    font: normal normal 400 1.7rem/ normal "Oranienbaum", sans-serif;
+    text-transform: none;
+}
 
 
 /*---------------------------------------
