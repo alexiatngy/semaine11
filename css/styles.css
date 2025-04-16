@@ -102,13 +102,32 @@ h2 span{
     text-transform: none;
 }
 
+.images{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
 
+.images a {
+    width: 200px;
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+a .images{
+    width: 100%;
+    margin-bottom: 10px;
+}
 /*---------------------------------------
                 Section sports
  ---------------------------------------*/
 
 /* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
-
+.sports{
+    background-image: url(../images/fond/bicycles.png);
+}
 
 
 
