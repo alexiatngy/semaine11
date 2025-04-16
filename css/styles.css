@@ -51,16 +51,20 @@ a:hover{
 
 /* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
 
-
-
-
-
+header, section{
+    min-height: 100vh;
+}
 /*---------------------------------------
                 Section Générale
  ---------------------------------------*/
 
 /* INSÉREZ VOTRE CSS POUR CETTE SECTION ICI */
-
+section .boite{
+    width: 800px;
+    padding: 48px;
+    background-color: rgba(0, 0, 0, 0.80);
+    border-radius: 10px;
+}
 
 
 
