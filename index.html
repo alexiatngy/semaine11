@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Les liens Web</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_upward" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Oranienbaum&display=swap" rel="stylesheet">
@@ -12,10 +13,10 @@
 
 <body>
 
-    <header>
+    <header id="haut">
         <div>
             <h1>Les liens Web</h1>
-            <a href="#">Liens vers le bas de page</a>
+            <a href="#photos">Liens vers le bas de page</a>
         </div>
     </header>
 
@@ -28,17 +29,20 @@
 
             <div class="images">
 
-                <a href="#">
+                <a href="mailto:6317320@cegepmontpetit.ca">
+
                     <img src="images/sports/velo.jpg" alt="Vélo">
                     <span>Site Web de DCO</span>
                 </a>
 
-                <a href="#">
+                <a href="tel:15142776020">
+
                     <img src="images/sports/baseball.jpg" alt="Baseball">
                     <span>Video de base ball</span>
                 </a>
 
-                <a href="">
+                <a href="autres/lens.eps" download> 
+
                     <img src="images/sports/jogging.jpg" alt="Jogging">
                     <span>Course 5k Zombie</span>
                 </a>
@@ -56,24 +60,28 @@
 
             <div class="images">
 
-                <a href="#">
+                <a href="/pdf/html-cheatsheet.pdf">
+
                     <img src="images/web/html.png" alt="HTML">
                     <span>Guide selecteur CSS(PDF relatif à la racine)</span>
                 </a>
 
-                <a href="#">
+                <a href="pdf/css3-cheatsheet.pdf" download="tricheur.pdf">
+
                     <img src="images/web/sass.png" alt="Sass">
                     <span>Guide selecteur CSS(PDF relatif)</span>
                 </a>
 
-                <a href="#">
+                <a href="https://votre-domaine.com/pdf/typescript.pdf">
+
                     <img src="images/web/typescript.png" alt="Typescript">
                     <span>Typescript (PDF absolu)</span>
                 </a>
 
             </div>
 
-            <div class="lien_float"><a href="#">Information
+            <div class="lien_float"><a href="http://www.htmq.com/style/float.shtml" hreflang="ja">
+                Information
                 sur le float CSS</a></div>
 
         </div>
@@ -87,15 +95,18 @@
             <p>J'aime aussi prend le temps de prendre des clichés de mon important de ma vie.</p>
 
             <div class="images">
-                <a href="#">
+                <a href="https://dcobicycle.com/fr">
+
                     <img src="images/photos/icon_mail.png" alt="Couriel">
                     <span>envoyez-moi un courriel</span>
                 </a>
-                <a href="#">
+                <a href="https://www.youtube.com/watch?v=VTGl_Jy_nbQ">
+
                     <img src="images/photos/icon_tel.png" alt="Téléphone">
                     <span>Appellez-moi</span>
                 </a>
-                <a href="#">
+                <a href="https://thezombiefunrun.com/" target="_blank" rel="">
+
                     <img src="images/photos/icon_lens.png" alt="Lens">
                     <span>Icon (format eps)</span>
                 </a>
@@ -103,5 +114,11 @@
 
         </div>
     </section>
+
+    <a href="#haut" class="haut">
+        <span class="material-symbols-outlined">
+            arrow_upward
+            </span>
+      </a>
 </body>
 </html>
